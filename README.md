@@ -23,6 +23,7 @@ const schema = new GraphQLSchema({
   // the object has a field called message
   query: new GraphQLObjectType({
     name: "Hello",
+    // use callback or otherwise schemas will not be in reference of each other's defined types
     fields: () => ({
       message: {
         // define the type of the message
