@@ -1,0 +1,25 @@
+{
+  "name": "graphql-reference",
+  "version": "1.0.0",
+  "description": "- A traditional method to call for data sometimes involve making several API calls to your server to query for more information that what is needed.\r - GraphQL - Make a single API call to query for specfically needed information from your Node / Express server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpvnguyen/graphql-reference.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vpvnguyen/graphql-reference/issues"
+  },
+  "homepage": "https://github.com/vpvnguyen/graphql-reference#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0"
+  }
+}
