@@ -47,11 +47,11 @@ app.use(
 app.listen(PORT, () => console.log(`GraphQL server is running on: ${PORT}`));
 ```
 
-### Example result
+## Example result
 
 ![GraphQL Screenshot](./screenshots/graphql-query.PNG)
 
-### Issues
+## Issues
 
 ```javascript
 {
